@@ -9,8 +9,18 @@ This project analyzes historical weather data from Austin, Texas, focusing on:
 - Long-term climatic trends
 - Year-over-year temperature validation
 
-The analysis includes data cleaning, feature engineering, rolling statistics,
-correlation analysis, and time-series visualization using Python.
+The analysis includes data cleaning, preprocessing, rolling statistics,
+correlation analysis, and time-series visualization using Python-based
+data analysis libraries.
+
+---
+
+## Temperature vs Humidity
+
+The scatter plot below illustrates the relationship between maximum temperature
+and average humidity in Austin.
+
+![Temperature vs Humidity](austin_temp_humidity.png)
 
 ---
 
@@ -24,6 +34,19 @@ The dataset contains daily weather observations including:
 - Humidity levels
 - Dew point
 - Date information
+
+---
+
+## Analysis Steps
+
+1. Data loading and inspection
+2. Data cleaning and type conversion
+3. Handling missing values
+4. Correlation analysis
+5. Time-series visualization
+6. Rolling and expanding averages
+7. Seasonality analysis
+8. Year-over-year temperature validation
 
 ---
 
